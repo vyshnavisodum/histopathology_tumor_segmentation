@@ -1,0 +1,11 @@
+cat > .gitignore << 'EOF'
+venv/
+__pycache__/
+*.pyc
+data/patches/
+data/CrowdsourcingDataset-Amgadetal2019/images/
+data/CrowdsourcingDataset-Amgadetal2019/masks/
+data/BCSS_data/
+*.pth
+.ipynb_checkpoints/
+EOF
